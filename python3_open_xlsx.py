@@ -23,13 +23,13 @@ rows = ws.rows
 columns = ws.columns
 
 # 迭代所有的行
-# for row in rows:
-#     line = [col.value for col in row]
-#     print(line[0],line[1]+line[2]+"损伤",line[3])
+for row in rows:
+    line = [col.value for col in row]
+    print(line[0],line[1]+line[2]+"损伤",line[3])
 
-for column in columns:
-    line2 = [col.value for col in column]
-    print(line2)
+# for column in columns:
+#     line2 = [col.value for col in column]
+#     print(line2)
 
 # 通过坐标读取值
 # print(ws.cell('B5').value)  # A表示列,1表示行
