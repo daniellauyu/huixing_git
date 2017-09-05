@@ -1,4 +1,4 @@
-#README
+# README
 
 开始学python，开始学git~
 
